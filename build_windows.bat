@@ -7,7 +7,7 @@ pyinstaller ^
   --icon assets\app_icon.ico ^
   --add-data "assets;assets" ^
   --add-data "sample_data;sample_data" ^
-  qt_app.py
+  app.py
 
 echo.
 echo Windows build completed.

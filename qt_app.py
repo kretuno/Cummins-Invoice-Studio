@@ -27,10 +27,10 @@ except ImportError:  # pragma: no cover
     print("PySide6 is not installed. Run: pip install PySide6")
     raise
 
-import parser as parser_module
+import invoice_parser as parser_module
 
 from exporter import export_report_to_excel
-from parser import CumminsInvoiceParser, ParseReport
+from invoice_parser import CumminsInvoiceParser, ParseReport
 from utils import collect_pdf_files, ensure_xlsx_path, format_countries, format_weights, human_total_usd, human_total_weight
 
 

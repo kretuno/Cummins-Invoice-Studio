@@ -11,7 +11,7 @@ from tempfile import TemporaryDirectory
 from tkinter import messagebox
 
 from exporter import export_report_to_excel
-from parser import CumminsInvoiceParser, ParseReport
+from invoice_parser import CumminsInvoiceParser, ParseReport
 from utils import (
     choose_file,
     choose_folder,

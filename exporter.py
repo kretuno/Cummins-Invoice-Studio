@@ -5,7 +5,7 @@ from pathlib import Path
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 
-from parser import ParseReport
+from invoice_parser import ParseReport
 from utils import format_countries, format_weights
 
 

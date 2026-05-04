@@ -4,7 +4,7 @@ import argparse
 from pathlib import Path
 
 from exporter import export_report_to_excel
-from parser import CumminsInvoiceParser
+from invoice_parser import CumminsInvoiceParser
 from utils import collect_pdf_files, ensure_xlsx_path, human_total_usd, human_total_weight
 
 

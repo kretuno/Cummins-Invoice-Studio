@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from parser import CumminsInvoiceParser
+from invoice_parser import CumminsInvoiceParser
 
 
 ROOT = Path(__file__).resolve().parent
