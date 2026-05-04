@@ -1,0 +1,12 @@
+.venv/
+dist/
+build/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.log
+*.xlsx
+.idea/
+.vscode/
